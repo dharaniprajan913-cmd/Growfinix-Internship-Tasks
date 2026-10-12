@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">MyPortfolio</a>
+
+      <button class="menu-btn" id="menuBtn"
+        aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>DHARANI D</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>
+          I enjoy creating beautiful, responsive and
+          user-friendly websites. I am learning web
+          development and building projects to improve my skills.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="avatar">D</div>
+        <div class="floating-tag">Creative Developer</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <p class="section-text">
+        I am an aspiring developer passionate about technology,
+        web design and solving problems. I enjoy learning new
+        tools and turning ideas into working websites.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I AM LEARNING</p>
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">React (Learning)</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">MY RECENT WORK</p>
+      <h2>My Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">PROJECT 01</div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website to introduce myself and my skills.</p>
+          <span>HTML · CSS · JavaScript</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">PROJECT 02</div>
+          <h3>Login UI</h3>
+          <p>A clean login and registration interface with validation.</p>
+          <span>HTML · CSS · JavaScript</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">PROJECT 03</div>
+          <h3>Task Tracker</h3>
+          <p>A simple task manager to organize everyday activities.</p>
+          <span>JavaScript · LocalStorage</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact Me</h2>
+      <p>Have an opportunity or project in mind? Feel free to connect.</p>
+      <a class="btn primary"
+         href="mailto:dharaniprajan913@gmail.com">Email Me</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> DHARANI D. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
